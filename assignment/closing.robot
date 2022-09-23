@@ -13,8 +13,8 @@ Login To Deriv
     Wait Until Page Contains Element    dt_login_button   60
     Click Element    dt_login_button
     Wait Until Page Contains Element    //input[@type='email']    10
-    Input Text    //input[@type='email']    shin.cheng@besquare.com.my 
-    Input Text    //input[@type='password']    HondaHRV2022!!!
+    Input Text    //input[@type='email']    
+    Input Text    //input[@type='password']    
     Click Element    //button[@type='submit']
 
 Navigate to account setting page 
